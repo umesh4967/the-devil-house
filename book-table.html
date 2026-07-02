@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book A Table | The Devil House</title>
+
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER / NAVBAR -->
+    <header>
+        <nav>
+
+            <h1>The Devil House</h1>
+
+        
+<a href="https://wa.me/91XXXXXXXXXX"
+   class="header-whatsapp"
+   target="_blank">
+   🟢 WhatsApp
+</a>
+            <div class="menu-toggle">&#9776;</div>
+
+        </nav>
+    </header>
+
+    <!-- BOOK TABLE LANDING PAGE -->
+    <section class="book-landing">
+
+        <div class="book-box">
+
+            <h1>Let's Connect</h1>
+
+
+
+<div class="premium-tagline">
+    ⭐ No Discounts. No Bonus. Only the Best Service.
+</div>
+
+
+            <form id="bookingForm">
+
+                <input type="text" id="customerName" placeholder="Your Name" required>
+
+                <input type="tel" id="customerMobile" placeholder="Mobile Number" required>
+
+                <input type="email" id="customerEmail" placeholder="Email Address (Optional)">
+
+                <textarea id="customerMessage" placeholder="Description / Comments" rows="5"></textarea>
+
+            <button type="submit" class="reserve-btn">
+    📲 Reserve on WhatsApp
+</button>
+
+            </form>
+
+        </div>
+
+    </section>
+<!-- LIVE CHAT POPUP START -->
+<div class="live-chat-widget">
+  <div class="chat-box" id="chatBox">
+    <button class="chat-close" onclick="closeChat()">×</button>
+
+    <h3>Need Help?</h3>
+    <p id="chatMsg">Chat with us instantly.</p>
+
+    <a href="https://wa.me/91XXXXXXXXXX?text=Hi%20I%20want%20to%20book%20a%20table" target="_blank">
+      🟢 WhatsApp Chat
+    </a>
+  </div>
+
+  <button class="chat-btn" id="chatBtn" onclick="toggleChat()">
+    💬 Need Help?
+  </button>
+</div>
+<!-- LIVE CHAT POPUP END -->
+
+<script src="script.js"></script>
+</body>
+
+
+</html>
